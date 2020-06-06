@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaveroSA</title>
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!--FONT OSWALD-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap">
+    <!--FLEXSLIDER-->
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <!--BUTTON NAV-->
+    <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>        
+    </div>
+
+    <!--WIN DOWNLOAD-->
+    <!--<section>
+        <div class="win-container">            
+            <form action="" class="win win-close" id="downPdf">                
+                <h2>Introduzca la contraseña otorgada por la empresa</h2>
+                <ul class="close"><i class="far fa-times-circle"></i></ul>
+                <input type="key" ip="key" class="imp-text" required>
+                <input type="download" value ="Descargar" class="down">
+                <button type="download" id="send()" class="down">Descargar</button>
+                <h3>Si no tienes contraseña, contactenos para serle otorgada</h3>
+                <div id="error"></div>               
+                <a href="pdf-lista-de-precios/lista-nueva.pdf" download="lista-precio-Favero.pdf" id="pdf"></a>                               
+            </form>            
+        </div>                                       
+    </section> -->    
+
+
+
+        <!--NAVIGATOR -->
+        <nav class="nav-main">
+            <div class="header-logo">
+                <img src="img/LogoFaveroWeb.png" alt="Favero LOGO" class="nav-logo1">
+            </div>
+            <ul class="nav-menu">
+                <li>
+                    <a href="index.html">Pagina Principal</a>
+                </li>
+                <li>
+                    <a href="nosotros.html">Acerca de Nosotros</a>
+                </li>
+                <li>
+                    <a href="productos.html">Productos</a>
+                </li>
+                <li>
+                    <a href="contactenos.html">Contactenos</a>
+                </li>
+                <li class="open-pdf"> 
+                    <a href="pdf-lista-de-precios/lista-nueva.pdf" download="Lista-de-precios-FaveroSA"><i class="fas fa-arrow-alt-circle-down"></i> Descargar Listado de Precios</a>
+                </li>
+            </ul>
+            <hr>                      
+        </nav>
+
+    <!--CONTAINER-->
+    <div class="container">
+        <hr class="hr1">
+        <!--SLIDER-->
+        
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                    <img src="img/imagen3.jpg"  alt="">
+                    <section class="flex-caption">
+                    </section>
+                </li>
+                <li>
+                    <img src="img/imagen2.jpg" alt="">
+                    <section class="flex-caption">
+                    </section>
+                </li>
+                <li>
+                    <img src="img/imagen1.jpg" alt="">
+                    <section class="flex-caption">
+                    </section>
+                </li>
+                <li>
+                    <img src="img/imagen4.jpg" alt="">
+                    <section class="flex-caption">
+                    </section>
+                </li>
+            </ul>
+        </div>
+        <hr class="hr2">
+
+        <!--NEW CARDS-->
+        <div class="news-cards">
+            <div>
+                <img src="img/Rondana1.jpg" alt="News 1">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, repellat pariatur explicabo natus error illo itaque soluta? Quidem, suscipit in?</p>
+                <a href="productos.html">Conozca más Productos <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="img/Muela-JohnDeere.jpg" alt="News 2">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, repellat pariatur explicabo natus error illo itaque soluta? Quidem, suscipit in?</p>
+                <a href="productos.html">Conozca más Productos <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="img/polea1.jpg" alt="News 3">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, repellat pariatur explicabo natus error illo itaque soluta? Quidem, suscipit in?</p>
+                <a href="productos.html">Conozca más Productos <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="img/camisa.jpg" alt="News 4">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, repellat pariatur explicabo natus error illo itaque soluta? Quidem, suscipit in?</p>
+                <a href="productos.html">Conozca más Productos <i class="fas fa-angle-double-right"></i></a>
+            </div>
+
+        </div>
+        <hr class="hr3">
+
+        <!--BANNER 1-->
+        <section class="cards-banner-one">
+            <div class="content">
+                <h2>Nuestra Ubicacion</h2>
+                <p>1 de Mayo 402 - Los Molinos [C.P:2181] Santa Fé - Argentina.</p>
+                <a href="contactenos.html" class="btn">Coctáctenos<i class="fas fa-angle-double-right"></i></a>                
+            </div>
+            <div class="google-maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3342.305192287904!2d-61.33049758538476!3d-33.101059480875314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c82bdaecfb0121%3A0x8b8859be183ab4e2!2sFavero%20S.A.!5e0!3m2!1ses!2sar!4v1591229711644!5m2!1ses!2sar" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </section>
+        <hr class="hr4">     
+
+        <!--SOCIAL-->
+        <section class="social">
+            <p>Seguinos en Facebook</p>
+            <div class="links">
+                <a href="https://facebook.com/faverosa/ " target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+        </section>
+    </div>
+    
+    <!--FOOTER LINKS
+    <div class="footer-links">
+        <div class="footer-container">
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>Titulo Uno</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>Titulo Dos</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>Titulo Tres</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>Titulo Cuatro</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+            </ul>
+        </div>
+    </div> -->
+
+    <!--FOOTER-->
+    <div class="footer">
+        <h3>Favero S.A. Copiright <i class="fa fa-copyright" aria-hidden="true"></i> </h3>
+    </div>
+
+    <!--SCROLL REVEAL-->
+    <script src="https://unpkg.com/scrollreveal"></script>    
+
+    <!--BUTTON BAR JS-->
+    <script src="main.js"></script>
+
+    <!--FLEXSLIDER-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    $(window).load(function() {
+        $('.flexslider').flexslider({
+            touch: true,
+            pauseOnAction: false,
+            pauseOnHover: false,
+        });
+    });
+    </script>
+    <!-- Start of Async Callbell Code -->
+    <script>
+        window.callbellSettings = {
+            token: "DG1CnRmJ9TkGn2AsfvKrLGUC"
+        };
+    </script>
+    <script>
+        (function(){var w=window;var ic=w.callbell;if(typeof ic==="function"){ic('reattach_activator');ic('update',callbellSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Callbell=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://dash.callbell.eu/include/'+window.callbellSettings.token+'.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
+    </script>
+        <!-- End of Async Callbell Code -->    
+
+</body>
+</html>
