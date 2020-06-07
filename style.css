@@ -34,7 +34,7 @@ ul {
 
 .nav-logo1 {
     display: flex;
-    padding-left: 20px;
+    padding-left: 15px;
 }
 
 .nav-main {
@@ -59,16 +59,11 @@ ul {
     display: flex;  /*coloca los elementos horizontalmente*/
 }
 
-.nav-main ul li {
-    padding: 1.5%;
-}
-
 .nav-main ul li a {     /*esta es la distancia entre cada pestaña*/
     font-family: 'Roboto', sans-serif;
     padding: 10px;
     color: #0c021b;    
 }
-
 
 .nav-main ul li a:hover {     /*los : sirven pata seleccionar la etiqueta*/
     border-bottom: 2px solid #0c021b;
@@ -78,6 +73,10 @@ ul {
 .nav-main ul.nav-menu {      /*esta es la barra de navegacion que contiene las pestañas*/
     flex: 1;
     margin-left: 20px;
+}
+
+.nav-main ul.nav-menu li {        
+    padding: 15px;
 }
 
 /*BUTTON BARS*/
@@ -97,7 +96,7 @@ hr {
     margin: 40px 0;    
 }
 .hr1 {
-    width: 88.9%;
+    width: 86%;
     margin-top: 84px;
     border: 1.5px solid;
     color: #f2f2f2;
@@ -227,7 +226,7 @@ hr {
 }
 
 .hr2 {
-    width: 88.9%;
+    width: 86%;
     margin-top: 5px;
     border: 1.5px solid;
     color: #f2f2f2;
@@ -264,7 +263,7 @@ hr {
     text-decoration: underline;
 }
 .hr3 {
-    width: 88.9%;
+    width: 86%;
     margin-top: -10px;
     border: 1.5px solid;
     color: #f2f2f2;
@@ -303,7 +302,7 @@ hr {
 }
 
 .hr4 {
-    width: 88.9%;
+    width: 86%;
     margin-top: -30px;
     border: 1.5px solid;
     color: #f2f2f2;
@@ -391,12 +390,14 @@ hr {
 
 /*RESPONSIVE*/
 
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
     .nav-logo1 {
         position: absolute;
         top: 15px;
         left: 10px;
     }
+
+
 
     .flex-caption p {
         display: none;
