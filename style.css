@@ -269,7 +269,6 @@ hr {
     text-decoration: underline;
 }
 
-
 /*CARDS BANNER ONE*/
 
 .cards-banner-one {
@@ -367,6 +366,8 @@ hr {
         top: 15px;
         right: 25px;
     }
+
+
 
     .flex-caption p {
         display: none;
