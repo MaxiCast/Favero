@@ -95,12 +95,6 @@ hr {
     width: 100%;
     margin: 40px 0;    
 }
-.hr1 {
-    width: 86%;
-    margin-top: 84px;
-    border: 1.5px solid;
-    color: #f2f2f2;
-}
 
 /*FLEXLIDER*/
 
@@ -226,8 +220,20 @@ hr {
 }
 
 .hr2 {
-    width: 86%;
+    width: 89%;
     margin-top: 5px;
+    border: 1.5px solid;
+    color: #f2f2f2;
+}
+.hr3 {
+    width: 89%;
+    margin-top: -15px;
+    border: 1.5px solid;
+    color: #f2f2f2;
+}
+.hr4 {
+    width: 89%;
+    margin-top: -30px;
     border: 1.5px solid;
     color: #f2f2f2;
 }
@@ -262,12 +268,6 @@ hr {
 .news-cards a:hover {
     text-decoration: underline;
 }
-.hr3 {
-    width: 86%;
-    margin-top: -10px;
-    border: 1.5px solid;
-    color: #f2f2f2;
-}
 
 /*CARDS BANNER ONE*/
 
@@ -299,13 +299,6 @@ hr {
 .cards-banner-one p,
 .cards-banner-one h2 {
     margin: 10px 0 20px 0;
-}
-
-.hr4 {
-    width: 86%;
-    margin-top: -30px;
-    border: 1.5px solid;
-    color: #f2f2f2;
 }
 
 /*CARDS BANNER TWO*/
@@ -354,30 +347,7 @@ hr {
     font-size: 3rem;
 }
 
-/*FOOTER LINKS*/
-
-.footer-links {
-    background: #2f3640;
-    color: #616161;
-    font-size: 12px;
-    padding: 35px 0;    
-}
-
-.footer-container {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 10px;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-.footer-container ul {
-    margin: 0 auto;
-}
-
-.footer-container ul li {
-    line-height: 2.8;
-}
+/*FOOTER*/
 
 .footer {
     background: #2f3640;
@@ -394,7 +364,7 @@ hr {
     .nav-logo1 {
         position: absolute;
         top: 15px;
-        left: 10px;
+        right: 25px;
     }
 
 
@@ -409,6 +379,7 @@ hr {
         color: #ffffff;
         top: 25px;
         position: fixed;
+        left: 25px;
     }
 
     .nav-main ul.nav-menu {
@@ -476,18 +447,24 @@ hr {
     .cards-banner-one .google-maps {
         display: none;
     }
+    
+    .hr2, .hr3, .hr4 {
+        width: 88.5%;
+    }
 }
 
 @media (max-width: 500px) {
     .menu-btn {
         display: block;
-        right: 20px;
+        left: 25px;
     }
 
     .nav-logo1 {
-        position: absolute;
-        top: 15px;
-        left: 10px;
+        right: 43px;
+    }
+
+    .slides img {
+        height: 200px;
     }
 
     @keyframes cambio {
@@ -500,16 +477,37 @@ hr {
     }
 
     .news-cards img {
+        height: 200px;
+    }
+
+    .cards-banner-one {
         height: 270px;
     }
 
-    .cards-banner-one .content,
-    .cards-banner-two .content {
+    .cards-banner-one .content {
         width: 100%;
         padding: 60px 20px;
     }
 
-    .footer-links .footer-container {
-        grid-template-columns: 1fr;
+    .social {
+        height: 30PX;
     }
+
+    .social p {
+        font-size: 17px;
+        margin-top: -25px;
+    }
+
+    .links a i {
+        font-size: 2rem;
+    }
+
+    .footer {
+        width: 101%;
+    }
+
+    .hr2, .hr3, .hr4 {
+        width: 86%;
+    }
+    
 }
